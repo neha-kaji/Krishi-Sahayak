@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- App Logo -->
+    <ImageView
+        android:src="@drawable/ic_krishi_logo"
+        android:contentDescription="Krishi Sahayak Logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- App Title -->
+    <TextView
+        android:text="Krishi Sahayak"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Tagline -->
+    <TextView
+        android:text="Empowering Farmers with Digital Access"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
